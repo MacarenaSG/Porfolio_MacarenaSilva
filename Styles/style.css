@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+@font-face{
+    font-family: 'MiFuente';
+    src:url(../tip/monserrat/Montserrat-Medium.ttf)
+}
+
+body {
+    font-family: 'MiFuente';
+}
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-color: #99d6d6;
+    color: #fff;
+}
+
+.logo span{
+    color: #66aaaa;
+  
+}
+
+.menu a {
+    color: #ffff;
+}
