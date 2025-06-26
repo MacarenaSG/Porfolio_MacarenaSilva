@@ -63,3 +63,58 @@ header{
 .menu-toggle:hover{
     transform: scale(1.1);
 }
+
+.contexto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 40px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+.contexto-texto {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contexto-texto h2 {
+  font-size: 3.5rem;
+  color:  #274b5c;
+}
+
+.contexto-texto h2 span {
+  color:  #66aaaa;
+}
+
+.contexto-texto h3 {
+  margin-top: 2.5rem;
+  color:#274b5c;
+  font-size: 2rem;
+}
+.contexto-texto p {
+  margin-top: 2rem;
+  color: #666;
+  font-size: 1rem;
+}
+
+.contexto-imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 250px;
+}
+
+.imagencirculo {
+  background:  #66aaaa;
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.imagencirculo img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
