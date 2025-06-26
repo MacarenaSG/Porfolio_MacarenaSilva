@@ -12,8 +12,7 @@
 body {
     font-family: 'MiFuente';
     background-color: #f4f4f4;
-    color: #333;
-
+    color: #66aaaa;;
 }
 
 header{
@@ -39,7 +38,7 @@ header{
 
 .nav-list {
   display: flex;
-  flex-direction: row; /* Ordena los ítems de derecha a izquierda */
+  flex-direction: row; /* Ordena los ítems */
   list-style: none; /* Elimina los puntos */
   gap: 2.5rem; /* Espacio entre enlaces */
   margin: 0;
@@ -52,7 +51,7 @@ header{
   font-size: 20px;
  }
 
-.boton-menu{
+.menu-toggle{
     font-size: 28px;
     color: #fff;
     text-decoration: none;
@@ -61,6 +60,6 @@ header{
     transition: transform 0.3s ease;
 }
 
-.boton-menu:hover{
+.menu-toggle:hover{
     transform: scale(1.1);
 }
