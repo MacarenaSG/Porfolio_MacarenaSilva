@@ -12,7 +12,7 @@
 body {
     font-family: 'MiFuente';
     background-color: #f4f4f4;
-    color: #66aaaa;;
+    color:  #274b5c;
 }
 
 header{
@@ -22,7 +22,7 @@ header{
     }
 
 .logo{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .logo span{
@@ -40,7 +40,7 @@ header{
   display: flex;
   flex-direction: row; /* Ordena los ítems */
   list-style: none; /* Elimina los puntos */
-  gap: 2.5rem; /* Espacio entre enlaces */
+  gap: 1.5rem; /* Espacio entre enlaces */
   margin: 0;
   padding: 0;
 }
@@ -48,7 +48,7 @@ header{
   color: #274b5c;           /* Color del texto */
   text-decoration: none;  /* Quita el subrayado */
   font-weight: 600; 
-  font-size: 20px;
+  font-size: 15px;
  }
 
 .menu-toggle{
@@ -79,23 +79,31 @@ header{
 }
 
 .contexto-texto h2 {
-  font-size: 3.5rem;
-  color:  #274b5c;
+  font-size: 1.5rem;
+  }
+
+.contexto-texto h3{
+    margin-top: 2rem;
+    font-size: 2rem;
 }
 
-.contexto-texto h2 span {
-  color:  #66aaaa;
+.contexto-texto h3 span {
+    font-size: 3rem;
+    color: #66aaaa;
 }
 
-.contexto-texto h3 {
-  margin-top: 2.5rem;
-  color:#274b5c;
-  font-size: 2rem;
+.contexto-texto h4 {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: 4rem;
+  
 }
 .contexto-texto p {
-  margin-top: 2rem;
+  margin-top: 3rem;
   color: #666;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  text-align:justify;
 }
 
 .contexto-imagen {
@@ -108,8 +116,9 @@ header{
 .imagencirculo {
   background:  #66aaaa;
   padding: 8px;
-  border-radius: 50%;
+  border-radius:50%;
   display: inline-block;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.60)
 }
 
 .imagencirculo img {
@@ -117,4 +126,20 @@ header{
   height: 400px;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.btn-cv {
+  display: inline-block;
+  margin-top: 2rem;
+  background: #66aaaa;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn-cv:hover {
+  background:#66aaaa;
 }
