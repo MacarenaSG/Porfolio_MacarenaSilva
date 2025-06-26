@@ -11,20 +11,56 @@
 
 body {
     font-family: 'MiFuente';
+    background-color: #f4f4f4;
+    color: #333;
+
 }
 
-.header{
-    width: 100vw;
-    height: 100vh;
+header{
     background-color: #99d6d6;
     color: #fff;
+    padding: 16px 20px;
+    }
+
+.logo{
+    font-size: 60px;
 }
 
 .logo span{
     color: #66aaaa;
-  
+ }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
 }
 
-.menu a {
-    color: #ffff;
+.nav-list {
+  display: flex;
+  flex-direction: row; /* Ordena los ítems de derecha a izquierda */
+  list-style: none; /* Elimina los puntos */
+  gap: 2.5rem; /* Espacio entre enlaces */
+  margin: 0;
+  padding: 0;
+}
+ .nav-list a {
+  color: #274b5c;           /* Color del texto */
+  text-decoration: none;  /* Quita el subrayado */
+  font-weight: 600; 
+  font-size: 20px;
+ }
+
+.boton-menu{
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    display: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.boton-menu:hover{
+    transform: scale(1.1);
 }
