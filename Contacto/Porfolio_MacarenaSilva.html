@@ -6,6 +6,8 @@
     <title>Porfolio_MS</title>
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="icon" href="../Imagen/iconoMSvs2.png" type="Imagen/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
     <header class="header">
@@ -26,12 +28,35 @@
   </header>
 
  <main>
-        <section class="contexto">
-            <div class="contexto-texto">
-                <h2>Contacto</h2>
-                <p>ejemplo Contacto</p>
-            </div>
+        <section class="contenedor-contacto">
+          <h2>Contacta conmigo</h2>
+          <ul class="info-contacto">
+            <li><i class="fas fa-map-marker-alt"></i> Sevilla</li>
+            <li><i class="fas fa-phone"></i> <span class="Telefono"> +34 660 947 548 </span></li>
+            <li><i class="fas fa-envelope"></i> macarena@gmail.com</li>
+            <li><i class="fas fa-globe"></i> http://www.linkedin.com/in/macarena</li>
+          </ul>
+          
+           <section class="formulario-contacto">
+            <h2>Envíame un mensaje...</h2>
+            <form>
+              <input type="text" name="Nombre" placeholder="Nombre" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <textarea name="mensaje" placeholder="Escribe tu mensaje..." rows="4" required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </section>
+
+             <div class="iconos-sociales">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+              </div>
         </section>
+
+       
     </main>
 
   <script src="Javascript/main.js"></script>
