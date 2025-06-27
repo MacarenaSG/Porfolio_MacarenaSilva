@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+@font-face{
+    font-family: 'MiFuente';
+    src:url(../../tip/monserrat/Montserrat-Medium.ttf)
+}
+
+body {
+    font-family: 'MiFuente';
+    background-color: #f4f4f4;
+    color:  #274b5c;
+    }
+
+header{
+    background-color: #99d6d6;
+    color: #fff;
+    padding: 16px 20px;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.logo span{
+    color: #66aaaa;
+ }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row; /* Ordena los ítems */
+  list-style: none; /* Elimina los puntos */
+  gap: 1.5rem; /* Espacio entre enlaces */
+  margin: 0;
+  padding: 0;
+}
+ .nav-list a {
+  color: #274b5c;           /* Color del texto */
+  text-decoration: none;  /* Quita el subrayado */
+  font-weight: 600; 
+  font-size: 15px;
+ }
+
+.menu-toggle{
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    display: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu-toggle:hover{
+    transform: scale(1.1);
+}
+
+.contexto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px 60px 60px;
+  gap: 40px;
+  background-color: #fff;
+  flex-wrap: wrap;
+  overflow: hidden;
+  min-height: 100vh;
+}
+.contexto-texto {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contexto-texto h2 {
+  font-size: 1.5rem;
+}
+
+.contexto-texto h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.contexto-texto h3 span {
+    font-size: 3rem;
+    color: #66aaaa;
+}
+
+.contexto-texto h4 {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: 4rem;
+  
+}
+.contexto-texto p {
+  margin-top: 3rem;
+  color: #666;
+  font-size: 1.2rem;
+  text-align:justify;
+}
+
+.contexto-imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 250px;
+}
+
+.imagencirculo {
+  background:  #66aaaa;
+  padding: 8px;
+  border-radius:50%;
+  display: inline-block;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.60)
+}
+
+.imagencirculo img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.btn-cv {
+  display: inline-block;
+  margin-top: 2rem;
+  background: #66aaaa;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn-cv:hover {
+  background:#66aaaa;
+}
+
+@media screen and (max-width: 700px){
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav{
+        display: none;
+        background-color:#e8a87c;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        padding: 15px 20px;
+        z-index: 100;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    .nav.menudesplegado{
+        display: flex;
+    }
+
+}
+    

@@ -6,7 +6,8 @@
 
 @font-face{
     font-family: 'MiFuente';
-    src:url(../tip/monserrat/Montserrat-Medium.ttf)
+    src:url(../../tip/monserrat/Montserrat-Medium.ttf)
+    
 }
 
 body {
