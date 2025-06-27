@@ -45,11 +45,23 @@ header{
   margin: 0;
   padding: 0;
 }
+
  .nav-list a {
   color: #274b5c;           /* Color del texto */
   text-decoration: none;  /* Quita el subrayado */
   font-weight: 600; 
   font-size: 15px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s
+ }
+
+ .nav-list a:hover{
+  background-color: #66cccc;
+  border-radius: 8px;
+ }
+
+ .nav-list a.ruta {
+  color: white;
  }
 
 .menu-toggle{
@@ -140,11 +152,12 @@ header{
   border-radius: 30px;
   text-decoration: none;
   font-weight: 500;
-  transition: background 0.3s;
+  cursor: pointer;
+
 }
 
 .btn-cv:hover {
-  background:#66aaaa;
+  background:#666;
 }
 
 @media screen and (max-width: 700px){

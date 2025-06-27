@@ -49,6 +49,17 @@ header{
   text-decoration: none;  /* Quita el subrayado */
   font-weight: 600; 
   font-size: 15px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s
+ }
+
+ .nav-list a:hover{
+  background-color: #66cccc;
+  border-radius: 8px;
+ }
+
+.nav-list a.ruta {
+  color: white;
  }
 
 .menu-toggle{
