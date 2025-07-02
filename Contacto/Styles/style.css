@@ -122,30 +122,12 @@ header{
   gap: 40px;
 }
 
+
 .contenedor-contacto h2 {
   font-size: 48px;
   width: 100%;
   text-align: center;
   margin-bottom: 40px;
-}
-
-.info-contacto {
-  flex: 1;
-  min-width: 300px;
-}
-
-.info-contacto li {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 20px;
-  font-size: 22px;
-  list-style: none;
-  word-break: break-word;
-}
-
-.Telefono {
-  font-size: 18px;
 }
 
 
@@ -158,6 +140,7 @@ header{
   background-color: #2e3540;
   color: white;
   gap: 20px;
+  
 }
 
 .formulario-contacto h2 {
@@ -169,6 +152,7 @@ header{
   display: flex;
   flex-direction: column;
   gap: 15px;
+  
 }
 
 .formulario-contacto input,
@@ -179,6 +163,7 @@ header{
   border: none;
   width: 100%;
   box-sizing: border-box;
+  font-family: 'tip_contacto';
 }
 
 .formulario-contacto button {
@@ -187,7 +172,8 @@ header{
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: backgroud 0.3s;
+  font-family: 'tip_contacto';
 }
 
 .formulario-contacto button:hover {
