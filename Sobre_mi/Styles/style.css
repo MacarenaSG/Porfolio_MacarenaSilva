@@ -115,7 +115,7 @@ header{
   
   background-color: #fff;
   padding: 40px;
-  border: 3px solid orange;
+  border: 3px solid #e8a87c;
   border-radius: 25px;
   margin: 40px auto;
   max-width: 1000px;
@@ -141,12 +141,13 @@ header{
 .descripcion h2 {
   margin-bottom: 15px;
   font-size: 40 px;
+  color: #e8a87c;
 }
 
 .video {
   flex: 1;
   min-width: 250px;
-  border: 3px solid orange;
+  border: 3px solid #e8a87c;
   border-radius: 20px;
   padding: 10px;
 }
