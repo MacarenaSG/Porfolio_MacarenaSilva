@@ -110,12 +110,13 @@ header{
 
 }
     
-.encabezado {
-  background: url("../../Imagen/Imagen_proect1.png") no-repeat;
+main{
+  background: url("../../Imagen/Imagen_proect2.png") no-repeat;
   background-size: cover;
-  height: 100vh;
+   background-attachment: fixed;  /* mantiene el fondo fijo al hacer scroll */
   display: block;
   }
+
 
   .titulo {
     padding: 1em;
