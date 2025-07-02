@@ -9,6 +9,11 @@
     src:url(../../tip/monserrat/Montserrat-Medium.ttf)
 }
 
+@font-face{
+    font-family: 'tip_proyecto';
+    src:url(../../tip/Paprika/Paprika-Regular.ttf)
+}
+
 body {
     font-family: 'MiFuente';
     background-color: #f4f4f4;
@@ -75,88 +80,6 @@ header{
     transform: scale(1.1);
 }
 
-.contexto {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 60px 60px 60px;
-  gap: 40px;
-  background-color: #fff;
-  flex-wrap: wrap;
-  overflow: hidden;
-  min-height: 100vh;
-}
-.contexto-texto {
-  flex: 1;
-  min-width: 280px;
-}
-
-.contexto-texto h2 {
-  font-size: 1.5rem;
-}
-
-.contexto-texto h3{
-    margin-top: 2rem;
-    font-size: 2rem;
-}
-
-.contexto-texto h3 span {
-    font-size: 3rem;
-    color: #66aaaa;
-}
-
-.contexto-texto h4 {
-  margin-top: 3rem;
-  font-size: 1.5rem;
-  font-style: italic;
-  margin-left: 4rem;
-  
-}
-.contexto-texto p {
-  margin-top: 3rem;
-  color: #666;
-  font-size: 1.2rem;
-  text-align:justify;
-}
-
-.contexto-imagen {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  min-width: 250px;
-}
-
-.imagencirculo {
-  background:  #66aaaa;
-  padding: 8px;
-  border-radius:50%;
-  display: inline-block;
-  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.60)
-}
-
-.imagencirculo img {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.btn-cv {
-  display: inline-block;
-  margin-top: 2rem;
-  background: #66aaaa;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: background 0.3s;
-}
-
-.btn-cv:hover {
-  background:#66aaaa;
-}
-
 @media screen and (max-width: 700px){
     .menu-toggle {
         display: block;
@@ -187,3 +110,113 @@ header{
 
 }
     
+.encabezado {
+  background: url("../../Imagen/Imagen_proect1.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: block;
+  }
+
+  .titulo {
+    padding: 1em;
+    text-align: center; 
+
+  }
+
+  .titulo h1{
+    font-family: 'tip_proyecto';
+    color: #f9f3f4;
+    font-size: 500%;
+    margin-bottom: 0.5em;
+   } 
+
+.menu-proyectos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #99d6d6;
+  padding: 30px 0;
+  font-family: 'tip_proyecto';
+  
+}
+
+.icono-proyecto {
+  background-color: #66aaaa;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.icono-proyecto:hover {
+  background-color: #5592b6;
+}
+
+
+.descripciones {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.proyecto {
+  margin-bottom: 40px;
+  background-color: #f0f9ff;
+  padding: 20px;
+  border-left: 5px solid #66aaaa;
+  border-radius: 8px;
+  text-align: justify;
+}
+
+.proyecto h2 {
+  margin-bottom: 10px;
+  color: #66aaaa;
+  font-family: 'tip_proyecto';
+}
+.btn-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #66aaaa;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+}
+
+.btn-flotante:hover {
+  background-color: #5592b6;
+}
+
+.bloque-github {
+  text-align: center;
+  margin: 60px 0 40px 0;
+}
+
+.github-link {
+  font-size: 18px;
+  color: #1b3c57;
+  text-decoration: none;
+  padding: 12px 20px;
+  border: 2px solid #1b3c57;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.github-link i {
+  margin-right: 8px;
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+.github-link:hover {
+  background-color: #1b3c57;
+  color: white;
+}
