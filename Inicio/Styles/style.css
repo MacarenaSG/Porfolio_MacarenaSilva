@@ -161,8 +161,23 @@ header{
 }
 
 @media screen and (max-width: 700px){
-    .menu-toggle {
+     header {
+        padding: 12px 16px;
+        flex-direction: column;
+    }
+
+     .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+
+  .menu-toggle {
         display: block;
+         align-self: flex-end;
     }
 
     .nav{
@@ -186,6 +201,57 @@ header{
     }
     .nav.menudesplegado{
         display: flex;
+    }
+
+      .contexto {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .contexto-texto {
+        order: 2;
+    }
+
+    .contexto-texto h2 {
+        font-size: 1.4rem;
+    }
+
+    .contexto-texto h3 {
+        font-size: 1.6rem;
+    }
+
+    .contexto-texto h3 span {
+        font-size: 2.2rem;
+    }
+
+    .contexto-texto h4 {
+        margin-left: 0;
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .contexto-texto p {
+        margin-top: 2rem;
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .btn-cv {
+        margin-top: 2rem;
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .contexto-imagen {
+        order: 1;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .imagencirculo img {
+        width: 250px;
+        height: 250px;
     }
 
 }
