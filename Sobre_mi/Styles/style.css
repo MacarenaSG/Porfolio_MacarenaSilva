@@ -14,6 +14,11 @@
   src: url(../../tip/DancingScript/DancingScript-Medium.ttf);
 }
 
+@font-face{
+    font-family: 'tip_proyecto';
+    src:url(../../tip/Paprika/Paprika-Regular.ttf)
+}
+
 body {
     font-family: 'MiFuente';
     background-color: #f4f4f4;
@@ -142,6 +147,13 @@ header{
   margin-bottom: 15px;
   font-size: 40 px;
   color: #e8a87c;
+}
+
+.descripcion p {
+  font-family: tip_proyecto;
+   font-size: 16px;
+   text-align: justify;
+
 }
 
 .video {
