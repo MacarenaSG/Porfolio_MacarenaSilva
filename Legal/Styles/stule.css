@@ -1,0 +1,21 @@
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: #fff;
+      color: #333;
+    }
+
+    h1, h2 {
+      color:  #274b5c;
+      margin-top: 30px;
+    }
+
+    p {
+      margin: 16px 0;
+      line-height: 1.6;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
